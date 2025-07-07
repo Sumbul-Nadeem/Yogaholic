@@ -1,4 +1,6 @@
 import React from 'react';
+import MainPose from '../assets/MainPose.png';
+
 
 const About = () => {
   return (
@@ -8,7 +10,7 @@ const About = () => {
   {/* Left: Illustration (now first) */}
   <div className="flex justify-center mt-10 ">
     <img
-      src="/src/assets/MainPose.png" 
+      src={MainPose} 
       alt="Yoga Girl"
       className="w-full max-w-sm rounded-xl shadow-lg  "
     />
